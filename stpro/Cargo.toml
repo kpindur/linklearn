@@ -1,0 +1,20 @@
+[package]
+name = "stpro"
+version = "0.1.0"
+authors = ["Adam Kotaro Pindur <kotaro.pindur@gmail.com>"]
+edition = "2021"
+description = "A library for modelling stochastic processes"
+license = "MIT"
+repository = "https://github.com/kpindur/linklearn"
+keywords = [
+	"machine-learning",
+	"stochastic-process"
+]
+categories = [
+	"algorithms",
+	"mathematics"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

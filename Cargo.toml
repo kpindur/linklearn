@@ -1,0 +1,31 @@
+[package]
+name = "linklearn"
+version = "0.1.0"
+authors = ["Adam Kotaro Pindur <kotaro.pindur@gmail.com>"]
+edition = "2021"
+description = "A toolbox for linkage learning"
+license = "MIT"
+keywords = [
+	"machine-learning",
+	"linkage-learning",
+	"optimization"
+]
+categories = [
+	"algorithms",
+	"mathematics",
+	"science"
+]
+rust-version = "1.76"
+
+exclude = [
+	".github/"
+]
+
+[lib]
+name = "linklearn"
+crate-type = ["cdylib"]
+
+[workspace]
+members = [
+	"stpro"
+]
