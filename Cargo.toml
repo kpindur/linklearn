@@ -27,5 +27,5 @@ crate-type = ["cdylib"]
 
 [workspace]
 members = [
-	"stpro"
+	"stochastic"
 ]
